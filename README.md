@@ -1,12 +1,21 @@
-# Boilerplate and Starter for Next JS 13+, Tailwind CSS 3.3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Muziscale - A Music School
 
-<p align="center">
-  <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
-</p>
+Welcome to the Muziscale! This repository contains the source code and documentation for our website, which is designed to provide information about our music school and its programs, as well as allow students to register and pay for classes.
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
+## Table of Contents
 
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 12.18.3 or higher)
+- Git
 
 ### Features
 
@@ -51,19 +60,27 @@ Built-in feature from Next.js:
 - SEO-friendly
 - 🚀 Production-ready
 
-### Nextless.js SaaS Boilerplate
+### Installation
 
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
+1. Clone the repository:
 
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
+```sh
+git clone https://github.com/muziscale/music-school.git
+```
 
-### Premium Themes
+2. Install the dependencies:
 
-| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
-| --- | --- |
-| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
+```sh
+npm install
+```
 
-Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
+3. Start the development server:
+
+```sh
+npm run dev
+```
+
+The website will be available at http://localhost:3000.
 
 ### Requirements
 
@@ -74,15 +91,13 @@ Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
 Run the following command on your local environment:
 
 ```shell
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
-cd my-project-name
-npm install
+yarn install
 ```
 
 Then, you can run locally in development mode with live reload:
 
 ```shell
-npm run dev
+yarn dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
@@ -105,18 +120,6 @@ Open http://localhost:3000 with your favorite browser to see your project.
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
-
-### Customization
-
-You can easily configure Next js Boilerplate by making a search in the whole project with `FIXME:` for making quick customization. Here is some of the most important files to customize:
-
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
-- `src/styles/global.css`: your CSS file using Tailwind CSS
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/Main.tsx`: default theme
-- `next-sitemap.config.js`: sitemap configuration
-
-You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
 
 ### Commit Message Format
 
@@ -171,18 +174,36 @@ With the plugins installed on your VSCode, ESLint and Prettier can automatically
 
 Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
 
+## Usage
+
+### Home Page
+
+The home page of our website contains information about our music school and its programs. It also features a call-to-action button that encourages visitors to register for classes.
+
+### Programs Page
+
+The programs page provides detailed information about each of our music programs, including the types of instruments taught, the skill levels available, and the cost of each program.
+
+### Registration Page
+
+The registration page allows students to sign up for classes, choose their preferred instrument and skill level, and pay for their classes online.
+
+## Features
+
+- Responsive design that works on desktop and mobile devices
+- Detailed information about each of our music programs
+- Easy-to-use interface for students to select their instrument and skill level
+
 ### Contributions
 
 Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug. Totally open to any suggestions and improvements.
 
 ### License
 
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2023
 
 See [LICENSE](LICENSE) for more information.
 
 ---
 
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![React SaaS Boilerplate](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
+Made with ♥ by instudia

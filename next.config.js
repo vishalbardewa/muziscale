@@ -14,4 +14,8 @@ module.exports = withBundleAnalyzer({
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
+  images: {
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    domains: ['images.unsplash.com'],
+  },
 });
