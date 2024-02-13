@@ -11,9 +11,10 @@ import { navVariants } from '@/utils/motion';
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Resources', href: '#' },
-  { name: 'Classes', href: '#' },
-  { name: 'About', href: '#' },
+  // { name: 'Resources', href: '#' },
+  { name: 'Classes', href: '#pricing' },
+  { name: 'About', href: '#about' },
+  { name: 'FAQ', href: '#faq' },
 ];
 // function MobileNavLink({ href, children }: any) {
 //   return (
@@ -172,7 +173,7 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#get-started-today" className="text-sm font-semibold leading-6 text-gray-900">
             Contact <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
