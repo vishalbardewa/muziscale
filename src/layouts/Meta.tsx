@@ -50,11 +50,11 @@ const Meta = (props: IMetaProps) => {
       <NextSeo
         title={props.title}
         description={props.description}
-        canonical={props.canonical}
+        canonical={`${AppConfig.canonicalBase}`}
         openGraph={{
           title: props.title,
           description: props.description,
-          url: props.canonical,
+          url: `${AppConfig.canonicalBase}`,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
         }}

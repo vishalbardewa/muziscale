@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Muziscale - Become a professional musician in 3 months</title>
         <meta
-          name="description"
+          name="Muziscale - Become a professional musician in 3 months"
           content="Transform your passion into expertise with Muziscale! Elevate your musical journey in just 3 months and become a professional musician. Unleash your potential now!"
         />
       </Head>

@@ -2,7 +2,8 @@
 
 export const AppConfig = {
   site_name: 'Muziscale',
-  title: 'Muziscale',
-  description: 'Become a professional musician in 3 months',
+  title: 'Become a musician in 3 months | Muziscale',
+  description: 'Transform your passion into expertise with Muziscale! Elevate your musical journey in just 3 months and become a professional musician. Unleash your potential now!',
   locale: 'en',
+  canonicalBase: 'https://muziscale.com/',
 };
