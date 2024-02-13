@@ -17,7 +17,7 @@ export default function Home() {
         <title>Muziscale - Become a professional musician in 3 months</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Transform your passion into expertise with Muziscale! Elevate your musical journey in just 3 months and become a professional musician. Unleash your potential now!"
         />
       </Head>
       <Header />
